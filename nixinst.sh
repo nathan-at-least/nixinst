@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Usage: `curl <url> | sh`
+# Usage: `curl 'https://raw.githubusercontent.com/nathan-at-least/nixinst/main/nixinst.sh' | sh`
 
 set -efuxo pipefail
 
