@@ -4,5 +4,7 @@
 
 set -efuxo pipefail
 
-curl -L https://nixos.org/nix/install | sh -- --no-daemon
+curl -L https://nixos.org/nix/install > ./nixos.org-install.sh
+sh -- ./nixos.org-install.sh --no-daemon
+rm ./nixos.org-install.sh
 nix-env -i tmux vim git
